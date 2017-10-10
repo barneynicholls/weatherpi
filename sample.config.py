@@ -8,7 +8,7 @@ class TwitterConfig:
 class RaspberryPiConfig:
     # I2C Interface bus. Rev 1 Pi uses 0, Rev 2 Pi uses 1
     I2C_INTERFACE_BUS = -1
-    # gpio pin wind speed anenometer is connected to
+    # gpio pin wind speed anemometer is connected to
     WIND_SPEED_GPIO = -1
 
 class ThingSpeakConfig:
