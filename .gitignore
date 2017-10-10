@@ -1,3 +1,7 @@
+# weather pi project files to ignore
+# config.py contains api keys etc., see sample.config.py
+config.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
