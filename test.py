@@ -6,7 +6,7 @@ def write():
 
     try:
         file = open(join(path),'w')   # Trying to create a new file or open one
-        file.write('hello world')
+        file.write('hello world!!')
         file.close()
 
     except:
