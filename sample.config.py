@@ -12,7 +12,7 @@ class RaspberryPiConfig:
     WIND_SPEED_GPIO = -1
 
 class ThingSpeakConfig:
-    KEY = 'your_thingspeak_key_for_the_channel_you_upload_to'
+    WEATHER_CHANNEL_WRITE_KEY = 'your_thingspeak_key_for_the_channel_you_upload_to'
 
 class Config:
     Twitter = TwitterConfig()

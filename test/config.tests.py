@@ -5,7 +5,7 @@ class ConfigurationTests(unittest.TestCase):
     def testThingSpeakSettings(self):
         import config
         cfg = config.Config()
-        self.assertNotEqual(cfg.ThingSpeak.KEY, 'your_thingspeak_key_for_the_channel_you_upload_to',
+        self.assertNotEqual(cfg.ThingSpeak.WEATHER_CHANNEL_WRITE_KEY, 'your_thingspeak_key_for_the_channel_you_upload_to',
                             'thingspeak channel key not set')
 
     def testRaspberryPiSettings(self):
