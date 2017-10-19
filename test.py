@@ -17,5 +17,5 @@ le = Loggers.Shared.LogEntry(
 
 wc.log(le)
 
-print('done')
+print('done the call')
 
