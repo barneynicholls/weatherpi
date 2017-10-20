@@ -17,5 +17,5 @@ le = Loggers.Shared.LogEntry(
 
 wc.log(le)
 
-print('call to weather channel yay2!!!')
+print('call to weather channel yay3!!!')
 
